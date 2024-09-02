@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Authentication with Next.js and Supabase
 
-## Getting Started
+This project is a simple authentication system built with **Next.js** and **Supabase**. The goal is to learn how to implement user authentication using modern tools and practices, including routing, server-side rendering, middleware, and cookie management.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The application includes the following features:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **User Signup and Login**: Users can create an account or log in using Supabase's authentication services.
+- **Protected Routes**: Only authenticated users can access the dashboard.
+- **Middleware**: Next.js middleware is used to protect certain routes and manage session-based authentication.
+- **Server-Side and Client-Side Rendering**: The project demonstrates handling authentication in both SSR (e.g., `getServerSideProps`) and CSR contexts.
+- **Cookie Management**: Supabase sessions are managed using cookies, with custom handling for both server and client sides.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Why This Project?
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The purpose of this project is to gain a deeper understanding of how authentication works in a full-stack JavaScript environment. By building this app, I aim to learn how to:
 
-## Learn More
+- Integrate Supabase with Next.js for seamless authentication.
+- Use Next.js middleware to enforce route protection.
+- Manage user sessions securely using cookies.
+- Handle authentication logic in both server-side and client-side environments.
 
-To learn more about Next.js, take a look at the following resources:
+## What's Included?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Login Page**: A simple form to log in users.
+- **Signup Page**: Allows new users to create an account.
+- **Dashboard**: A protected page that only logged-in users can access.
+- **Middleware**: Used to protect routes and manage session checks.
+- **Server-Side Authentication**: Demonstrates how to handle authentication in SSR with `getServerSideProps`.
+- **Client-Side Authentication**: Manages user sessions and redirects on the client side.
