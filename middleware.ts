@@ -1,6 +1,6 @@
 import { type NextRequest } from 'next/server';
 import { NextResponse } from 'next/server';
-import { updateSession } from '@/utils/middleware';
+import { updateSession } from '@/utils/supabase/middleware';
 
 export async function middleware(request: NextRequest) {
   // let cookie = request.cookies.get('nextjs');

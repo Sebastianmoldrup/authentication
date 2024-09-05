@@ -1,4 +1,18 @@
-# Authentication with Next.js and Supabase
+---
+id: Authentication
+---
+
+# Authentication in Next.JS using supabase
+
+## Validation
+
+1.
+
+## Authorization
+
+1.
+
+<!-- # Authentication with Next.js and Supabase
 
 This project is a simple authentication system built with **Next.js** and **Supabase**. The goal is to learn how to implement user authentication using modern tools and practices, including routing, server-side rendering, middleware, and cookie management.
 
@@ -28,4 +42,4 @@ The purpose of this project is to gain a deeper understanding of how authenticat
 - **Dashboard**: A protected page that only logged-in users can access.
 - **Middleware**: Used to protect routes and manage session checks.
 - **Server-Side Authentication**: Demonstrates how to handle authentication in SSR with `getServerSideProps`.
-- **Client-Side Authentication**: Manages user sessions and redirects on the client side.
+- **Client-Side Authentication**: Manages user sessions and redirects on the client side. -->
