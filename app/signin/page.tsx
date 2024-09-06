@@ -1,8 +1,8 @@
-import { login, signup } from './actions';
+import { signin, signup } from './actions';
 
 export default function LoginPage() {
   return (
-    <form className='flex flex-col items-center justify-center min-h-screen bg-gray-100'>
+    <form className='flex flex-col items-center justify-center min-h-screen'>
       <div className='w-full max-w-md'>
         <div className='bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4'>
           <div className='mb-4'>
@@ -38,7 +38,7 @@ export default function LoginPage() {
           <div className='flex items-center justify-between'>
             <button
               className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
-              formAction={login}
+              formAction={signin}
             >
               Log in
             </button>
